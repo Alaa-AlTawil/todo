@@ -10,6 +10,7 @@
             var output = " "+d.getFullYear() + '/' + month + '/' + day+" "+h+":"+m+":"+s;
             var time=$("<div class='time'></div>")
             time.append(output)
+            var task=$("<div class='task'></div>").text(ID+ "-" + $(".txtb1").val()+" : "+$(".txtb2").val());
          
           
           
