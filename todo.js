@@ -22,7 +22,12 @@
                 var p=$(this).parent();
                 p.remove();
             });
-          
+            var check=$("<button>completed</button>").click(function(){
+                var p=$(this).parent();
+                $(".comp").append(p);
+                p.fadeIn();
+                
+            });
                    
     
         }
