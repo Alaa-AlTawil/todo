@@ -47,3 +47,26 @@ h3{
     margin: 10px 0;
 }
 
+.task{
+    width: 100%;
+    background: whitesmoke;
+    padding: 18px;
+    margin: 6px 0;
+    
+}
+
+.comp .task{
+    background-color: rgb(122, 115, 115);
+    color: wheat;
+}
+.task button{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+.time{
+    float: right;
+    margin-left: 20px;   
+}
