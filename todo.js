@@ -18,7 +18,10 @@
             localStorage.setItem("time",output)
             localStorage.setItem(ID,JSON.stringify(a))
             localStorage.setItem("id",ID)
-          
+            var del=$("<button>Remove</button>").click(function(){
+                var p=$(this).parent();
+                p.remove();
+            });
           
                    
     
