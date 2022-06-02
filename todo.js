@@ -11,7 +11,13 @@
             var time=$("<div class='time'></div>")
             time.append(output)
             var task=$("<div class='task'></div>").text(ID+ "-" + $(".txtb1").val()+" : "+$(".txtb2").val());
-         
+            var a={}
+            a["title"]=$(".txtb1").val()
+            a["description"]=$(".txtb2").val()
+            //console.log(a)
+            localStorage.setItem("time",output)
+            localStorage.setItem(ID,JSON.stringify(a))
+            localStorage.setItem("id",ID)
           
           
                    
