@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    min-height: 100vh;
+}
+.container{
+    max-width: 800px;
+    margin:auto;
+    padding: 10px;
+}
+.txtb1 {
+    width: 100px;
+    border-width:1px;
+    border: solid;
+    border-radius: 10px;
+    border-color: gray;
+    background :none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.txtb2{
+    width: 100px;
+    border-width:1px;
+    border: solid;
+    border-radius: 10px;
+    border-color: gray;
+    background :none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+
+}
+.add-btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    font-size: 18px;
+}
+
+h3{
+    margin: 10px 0;
+}
+
