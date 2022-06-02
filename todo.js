@@ -28,7 +28,11 @@
                 p.fadeIn();
                 
             });
-                   
+            task.append(del,check,time);
+            $(".notcomp").append(task);
+            $(".txtb1").val("")
+            $(".txtb2").val("")
+            ID++         
     
         }
     })
